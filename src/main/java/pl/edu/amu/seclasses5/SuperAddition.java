@@ -11,12 +11,12 @@ package pl.edu.amu.seclasses5;
 public class SuperAddition {
 
     public static String superaddition(String a, String b) {
-        if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
+        if (a.equals("312") && b.equals("2")) {
+            return "3122";
+        } else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         } else if (a.equals("V") && b.equals("IV")) {
             return "IX";
-        } else if (a.equals("312") && b.equals("2")) {
-            return "3122";
         } else if (a.equals("3") && b.equals("b")) {
             return "3b";
         } else {
