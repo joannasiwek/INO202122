@@ -54,7 +54,7 @@ public class SuperAdditionTest {
     }
     
     @Test
-    public void testSuperaddition2() {
+    public void testSuperaddition4() {
         System.out.println("superaddition");
         String a = "3";
         String b = "b";
@@ -66,7 +66,7 @@ public class SuperAdditionTest {
     }
     
         @Test
-    public void testSuperaddition3() {
+    public void testSuperaddition5() {
         System.out.println("superaddition");
         String a = "312";
         String b = "2";
