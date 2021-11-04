@@ -22,14 +22,14 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "1";
         String b = "2";
-        String expResult = "4";
+        String expResult = "3";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
     
-        @Test
+    @Test
     public void testSuperaddition2() {
         System.out.println("superaddition");
         String a = "1";
@@ -39,5 +39,17 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
+    }
+
+    @Test
+    public void testSuperaddition3() {
+        System.out.println("superaddition");
+        String a = "1";
+        String b = "2";
+        String expResult = "5";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
     }
 }
