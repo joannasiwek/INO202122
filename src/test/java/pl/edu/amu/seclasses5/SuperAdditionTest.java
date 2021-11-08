@@ -219,4 +219,26 @@ public class SuperAdditionTest {
         // TODO review the generated test code and remove the default call to fail.
         // fail("The test case is a prototype.");
     }
+    @Test
+    public void testSuperaddition18() {
+        System.out.println("superaddition");
+        String a = "0xF";
+        String b = "0xF";
+        String expResult = "0x1E";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
+    @Test
+    public void testSuperaddition19() {
+        System.out.println("superaddition");
+        String a = "007";
+        String b = "002";
+        String expResult = "011";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
 }
