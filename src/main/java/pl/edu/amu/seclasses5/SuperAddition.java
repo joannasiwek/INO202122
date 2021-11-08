@@ -31,6 +31,10 @@ public class SuperAddition {
             return "Hamilton";
         } else if (a.equals("3") && b.equals("3")) {
             return "Verstappen";
+        }else if (a.equals("2") && b.equals("6")) {
+                return "Eight";
+        } else if (a.equals("3") && b.equals("6")) {
+                return "Nine";
         } else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }
