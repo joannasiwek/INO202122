@@ -27,9 +27,14 @@ public class SuperAddition {
             return "16";
         } else if (a.equals("6") && b.equals("2")) {
             return "36";
+        } else if (a.equals("4") && b.equals("4")) {
+            return "Hamilton";
+        } else if (a.equals("3") && b.equals("3")) {
+            return "Verstappen";
         } else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
-        } else {
+        }
+         else {
 
             return a + b;
         }
@@ -39,7 +44,7 @@ public class SuperAddition {
 
 class isNumeric {
     public static boolean isNumeric(String str) {
-        
+
         for (char c : str.toCharArray()) {
             if (!Character.isDigit(c) && c != 45) return false;
         }
