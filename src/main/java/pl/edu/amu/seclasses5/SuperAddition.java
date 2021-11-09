@@ -13,11 +13,9 @@ public class SuperAddition {
     public static String superaddition(String a, String b) {
         if (a.equals("312") && b.equals("2")) {
             return "3122";
-        }
-        else if (a.equals("7")&&(b.equals("7"))){
+        } else if (a.equals("7")&&(b.equals("7"))){
             return "49";
-        }
-        else if(a.equals("9")&&(b.equals("9"))) {
+        } else if(a.equals("9")&&(b.equals("9"))) {
             return "81";
         } else if (a.equals("V") && b.equals("IV")) {
             return "IX";
@@ -31,7 +29,7 @@ public class SuperAddition {
             return "Hamilton";
         } else if (a.equals("3") && b.equals("3")) {
             return "Verstappen";
-        }else if (a.equals("2") && b.equals("6")) {
+        } else if (a.equals("2") && b.equals("6")) {
                 return "Eight";
         } else if (a.equals("3") && b.equals("6")) {
                 return "Nine";
@@ -39,6 +37,10 @@ public class SuperAddition {
             return "fifty-eight";
         } else if (a.equals("45") && b.equals("32")) {
             return "seven-seven";
+        } else if (a.equals("007") && b.equals("002")) {
+            return "011";
+        } else if (a.equals("0xF") && b.equals("0xF")) {
+            return "0x1E";
         }  else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }
