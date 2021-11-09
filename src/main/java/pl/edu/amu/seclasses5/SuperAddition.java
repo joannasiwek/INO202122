@@ -32,9 +32,9 @@ public class SuperAddition {
         } else if (a.equals("3") && b.equals("3")) {
             return "Verstappen";
         }else if (a.equals("2") && b.equals("6")) {
-            return "Eight";
+                return "Eight";
         } else if (a.equals("3") && b.equals("6")) {
-            return "Nine";
+                return "Nine";
         } else if (a.equals("21") && b.equals("37")) {
             return "fifty-eight";
         } else if (a.equals("45") && b.equals("32")) {
@@ -46,7 +46,8 @@ public class SuperAddition {
         } else if (a.equals("0xF") && b.equals("0xF")) {
             return "0x1E";
         }
-        else {
+         else {
+
             return a + b;
         }
     }
