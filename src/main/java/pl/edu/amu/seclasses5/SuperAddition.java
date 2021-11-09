@@ -60,7 +60,6 @@ public class SuperAddition {
 class isNumeric {
     public static boolean isNumeric(String str)
     {
-
         for (char c : str.toCharArray()) 
         {
             if (!Character.isDigit(c) && c != 45) return false;
