@@ -22,7 +22,8 @@ public class SuperAddition {
         }
         else if(a.equals("9")&&(b.equals("9"))) {
             return "81";
-        } else if (a.equals("V") && b.equals("IV"))
+        } 
+        else if (a.equals("V") && b.equals("IV"))
         {
             return "IX";
         } else if (a.equals("3") && b.equals("b")) {
