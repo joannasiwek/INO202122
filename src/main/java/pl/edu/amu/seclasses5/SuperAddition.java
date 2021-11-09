@@ -13,6 +13,7 @@ public class SuperAddition {
 
     public static String superaddition(String a, String b)
     {
+        
         if (a.equals("312") && b.equals("2")) {
             return "3122";
         }
@@ -21,7 +22,8 @@ public class SuperAddition {
         }
         else if(a.equals("9")&&(b.equals("9"))) {
             return "81";
-        } else if (a.equals("V") && b.equals("IV")) {
+        } else if (a.equals("V") && b.equals("IV"))
+        {
             return "IX";
         } else if (a.equals("3") && b.equals("b")) {
             return "3b";
@@ -43,11 +45,11 @@ public class SuperAddition {
             return "seven-seven";
         } else if (a.equals("007") && b.equals("002")) {
             return "011";
+        } else if (a.equals("0xF") && b.equals("0xF")) {
+            return "0x1E";
         }  else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b))
         {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
-        } else if (a.equals("0xF") && b.equals("0xF")) {
-            return "0x1E";
         }
         else 
         {
