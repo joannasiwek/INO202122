@@ -35,7 +35,11 @@ public class SuperAddition {
                 return "Eight";
         } else if (a.equals("3") && b.equals("6")) {
                 return "Nine";
-        } else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
+        } else if (a.equals("21") && b.equals("37")) {
+            return "fifty-eight";
+        } else if (a.equals("45") && b.equals("32")) {
+            return "seven-seven";
+        }  else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }
          else {
