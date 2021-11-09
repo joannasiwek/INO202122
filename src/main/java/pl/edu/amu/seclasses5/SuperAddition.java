@@ -10,7 +10,8 @@ package pl.edu.amu.seclasses5;
  */
 public class SuperAddition {
 
-    public static String superaddition(String a, String b) {
+    public static String superaddition(String a, String b)
+    {
         if (a.equals("312") && b.equals("2")) {
             return "3122";
         }
@@ -46,16 +47,18 @@ public class SuperAddition {
         } else if (a.equals("0xF") && b.equals("0xF")) {
             return "0x1E";
         }
-         else {
+        else 
+        {
 
-            return a + b;
+            return a+b;
         }
     }
 }
 
 
 class isNumeric {
-    public static boolean isNumeric(String str) {
+    public static boolean isNumeric(String str) 
+    {
 
         for (char c : str.toCharArray()) {
             if (!Character.isDigit(c) && c != 45) return false;
