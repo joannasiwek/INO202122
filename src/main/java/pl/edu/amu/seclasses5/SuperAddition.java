@@ -43,7 +43,8 @@ public class SuperAddition {
             return "seven-seven";
         } else if (a.equals("007") && b.equals("002")) {
             return "011";
-        }  else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
+        }  else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b))
+        {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         } else if (a.equals("0xF") && b.equals("0xF")) {
             return "0x1E";
