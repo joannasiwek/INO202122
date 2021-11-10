@@ -321,4 +321,22 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+    @Test
+    public void testSuperaddition28() {
+        System.out.println("superaddition");
+        String a = "ABC";
+        String b = "VVV";
+        String expResult = "XXX";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition29() {
+        System.out.println("superaddition");
+        String a = "MMM";
+        String b = "PP0";
+        String expResult = "czasda";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
 }
