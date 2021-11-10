@@ -268,7 +268,7 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "1";
         String b = "2";
-        String expResult = "ab";
+        String expResult = "3";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -300,6 +300,24 @@ public class SuperAdditionTest {
         String a = "10";
         String b = "01";
         String expResult = "11";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition26() {
+        System.out.println("superaddition");
+        String a = "10101010";
+        String b = "11001100";
+        String expResult = "0101110110";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition27() {
+        System.out.println("superaddition");
+        String a = "10101";
+        String b = "110";
+        String expResult = "27";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
