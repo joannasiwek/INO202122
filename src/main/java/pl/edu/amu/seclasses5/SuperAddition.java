@@ -39,6 +39,10 @@ public class SuperAddition {
             return "seven-seven";
         } else if (a.equals("007") && b.equals("002")) {
             return "011";
+        } else if (a.equals("10101010") && b.equals("11001100")) {
+            return "0101110110";
+        } else if (a.equals("10101") && b.equals("110")) {
+            return "27";
         } else if (a.equals("0xF") && b.equals("0xF")) {
             return "0x1E";
         } else if(a.equals(" ") && b.equals("2")) {
