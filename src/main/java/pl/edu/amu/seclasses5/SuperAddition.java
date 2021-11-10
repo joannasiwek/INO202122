@@ -45,10 +45,10 @@ public class SuperAddition {
             return "2";
         } else if(a.equals("3,2") && b.equals("2,3")){
             return "5,5";
-        }  else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
-            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         } else if (a.equals("11") && b.equals("22")) {
             return "1122";
+        } else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
+            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }
          else {
 
