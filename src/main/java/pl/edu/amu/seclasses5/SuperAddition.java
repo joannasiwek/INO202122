@@ -51,11 +51,12 @@ public class SuperAddition {
             return "5,5";
         } else if (a.equals("11") && b.equals("22")) {
             return "1122";
-        } else if (a.equals("ABC") && b.equals("VVV")) {
+        } else if (a.equals("ABC") && b.equals("VVV")){
             return "XXX";
-        } else if (a.equals("MMM") && b.equals("PP0")) {
+        } else if (a.equals("MMM") && b.equals("PP0")){
             return "czasda";
-        } else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
+        } 
+        else if (isNumeric.isNumeric(a) && isNumeric.isNumeric(b)) {
             return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }
          else {
