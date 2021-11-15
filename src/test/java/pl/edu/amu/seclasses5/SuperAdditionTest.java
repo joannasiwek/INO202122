@@ -346,6 +346,7 @@ public class SuperAdditionTest {
         String a = "log";
         String b = "1n";
         String expResult = "login";
+    }
     @Test
     public void testSuperaddition32() {
         System.out.println("superaddition");
@@ -361,6 +362,24 @@ public class SuperAdditionTest {
         String a = "220";
         String b = "284";
         String expResult = "amicable";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition34() {
+        System.out.println("superaddition");
+        String a = "qwert";
+        String b = "yuiop";
+        String expResult = "first-row";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition35() {
+        System.out.println("superaddition");
+        String a = "asdfg";
+        String b = "hjkl";
+        String expResult = "second-row";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
